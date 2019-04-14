@@ -29,6 +29,11 @@ git status (when using it, need to be in the repo)
 
 * `git log` - History of commits
 * `git log --oneline` - Shorter history of commits
+* `git tag - a tagname -m` - To add a new tag  
 * `git checkout [nr of commit]` - set the current version to an older commit.
-Tags can be used as shortcuts instead: `git checkout [tagname]`
+
+Tags can be used as shortcuts instead: 
+
+`git checkout tags/<tagname>`
+* `git push origin <tagname>` - to push a tag
 * `git checkout master` - set the current version to the most recent on the master brach
